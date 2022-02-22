@@ -14,7 +14,7 @@
 }
 body{
     font: normal 14px/100% 'Mako', sans-serif;
-
+    transition: 0.3s;
 }
 ul{
     padding: 0%;
@@ -23,36 +23,33 @@ ul{
     display: table-cell;
     position: absolute;
 }
-li{
-    color: white;
-    height: 30px;
+
+li.table-left{
     background-color: rgb(156, 125, 228);
-    padding: 10px;
     text-align: left;
     list-style: none;
     border: 1px solid rgb(231, 231, 231);
-    
+    padding: 13px;
+    transition: 0.2s;
 }
 li a{
     color: white;
     text-decoration: none;
     display: block;
-    padding: 8px 17px;
 
 }
-li:hover{
+li.table-left:hover{
     background-color: rgb(180, 159, 228);
 }
 #paragraf-1{
     display: table-cell;
-	
+
     width: 80%;
     padding-left: 15px;
     margin-top: 0%;
     padding-right: 10px;
 }
-#parg-a{
-}
+
 #middle-p{
     margin: 30px;
     border-left: 5px solid green;
@@ -66,4 +63,16 @@ li:hover{
 }
 #main-a{
     display: table;
+}
+ol li{
+    padding: 5px;
+}
+#ol-t{
+}
+#column-1{
+    float: left;
+}
+#column-2{
+    float: left;
+    padding-left: 50px;
 }
